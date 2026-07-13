@@ -1,5 +1,20 @@
 # Verification report
 
+## v0.2.0 Evidence Gateway
+
+This additive release accepts exact OLP Canon and Agent Receipts v0.5 inputs,
+retains original bytes, emits seven separate signed verdict dimensions, and uses
+explicit `verified`, `rejected`, or `undecidable` status.
+
+The release gate runs Python tests, the existing independent Node verifier, the
+pinned upstream Agent Receipts vector, an isolated package import, and the
+40-row hostile benchmark. Machine-readable results are in
+`EVIDENCE_GATEWAY_RELEASE_GATE.json`, `RUN_REPORT.json`, and `results/`.
+
+The benchmark is not a product ranking. Agent Receipts retains its
+deployable-daemon advantage; this module tests whether a valid receipt is
+sufficiently supported and safe to use in a later decision.
+
 ## Uploaded artifact
 
 The uploaded `openline otel v2.py` was the earlier single-threaded prototype, not

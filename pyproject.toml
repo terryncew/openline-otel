@@ -4,15 +4,21 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "openline-otel"
-version = "0.1.0"
-description = "Portable signed receipts from OpenTelemetry traces"
+version = "0.2.0"
+description = "Portable signed receipts and evidence-aware verification for agent actions"
 requires-python = ">=3.11"
 dependencies = [
   "cryptography>=41",
   "opentelemetry-api>=1.30",
   "opentelemetry-sdk>=1.30",
+  "rfc8785>=0.1.4",
 ]
+
+[project.scripts]
+openline-evidence = "openline_otel.cli:main"
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-

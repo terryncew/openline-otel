@@ -7,6 +7,8 @@ on:
       - "src/**"
       - "tests/**"
       - "scripts/**"
+      - "docs/**"
+      - "artifacts/**"
       - "pyproject.toml"
       - "verify-node.mjs"
       - ".github/workflows/real-sdk-release-gate.yml"
@@ -15,6 +17,8 @@ on:
       - "src/**"
       - "tests/**"
       - "scripts/**"
+      - "docs/**"
+      - "artifacts/**"
       - "pyproject.toml"
       - "verify-node.mjs"
       - ".github/workflows/real-sdk-release-gate.yml"
@@ -50,7 +54,7 @@ jobs:
       - name: Install real OpenTelemetry SDK and package
         run: |
           python -m pip install --upgrade pip
-          python -m pip install -e .
+          python -m pip install -e ".[test]"
           python -m pip freeze
 
       - name: Run deterministic core tests against real SDK imports
@@ -64,3 +68,6 @@ jobs:
 
       - name: Verify receipt independently in Node
         run: node verify-node.mjs artifacts/conformance-receipt.json
+
+      - name: Run Evidence Gateway release gate
+        run: python scripts/release_check.py

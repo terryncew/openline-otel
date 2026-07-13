@@ -1,0 +1,228 @@
+{
+  "excluded": [
+    "*.pyc",
+    "*.zip",
+    ".git",
+    ".pytest_cache",
+    "MANIFEST.json",
+    "__pycache__",
+    "build",
+    "openline_otel.egg-info"
+  ],
+  "file_count": 42,
+  "files": [
+    {
+      "bytes": 36,
+      "path": ".github/workflows/.gitkeep",
+      "sha256": "f5282de05383f7c8d8d114ed81a4a3ea2f594ef9b4839728279e250d306daac3"
+    },
+    {
+      "bytes": 1836,
+      "path": ".github/workflows/real-sdk-release-gate.yml",
+      "sha256": "f962dca28d707c29dd673b865750a4559be7889ca7d37c508216adb9a5b1ec6e"
+    },
+    {
+      "bytes": 107,
+      "path": ".gitignore",
+      "sha256": "2062d31bd74ba969eb401365de32bd207517d395218029374c2daafae142720d"
+    },
+    {
+      "bytes": 842,
+      "path": "CHANGELOG.md",
+      "sha256": "8d48ef2cc062284b72e08aef7029f0b342b1f3593285c874724c9a1f2c14bd26"
+    },
+    {
+      "bytes": 907,
+      "path": "EVIDENCE_GATEWAY_RELEASE_GATE.json",
+      "sha256": "2bcf4c301931900cecb24fb70c7cf070a27f1a15658f52f41d046f6d5deb21b1"
+    },
+    {
+      "bytes": 1071,
+      "path": "LICENSE",
+      "sha256": "07674dfa9960dff5128d0cdcce58fee7543c26ff47e58e07ae6ac0254a0f58b1"
+    },
+    {
+      "bytes": 6894,
+      "path": "README.md",
+      "sha256": "31df141a346d7bc4922f1c7445b73902330d743d2c64b6366b9b1584f07651c2"
+    },
+    {
+      "bytes": 3438,
+      "path": "REPORT.md",
+      "sha256": "17e4092eabb56611024e91514d2d60e67a9b020a3fd50dc0487a8cac1684703f"
+    },
+    {
+      "bytes": 456,
+      "path": "RUN_REPORT.json",
+      "sha256": "9c42472002a0fe6c12746ad117120a56557b29b566557c47559f984c5dcad78f"
+    },
+    {
+      "bytes": 568,
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "c34d6bbbfe1fb7a9d356892544fcc009c04511fb52811b9502036e7b6c99816b"
+    },
+    {
+      "bytes": 40,
+      "path": "artifacts/.gitkeep",
+      "sha256": "336be19156f0f92c98e48035bf723cf4cbc0ee69bf7d9c881f3c1494b9cd1426"
+    },
+    {
+      "bytes": 1942,
+      "path": "artifacts/agent-receipts-v050-runtime-receipt.json",
+      "sha256": "119eb077a1c88da4b85b0f394e33131fb3e7b3517a6a2b44ce61939272257fc6"
+    },
+    {
+      "bytes": 1363,
+      "path": "artifacts/conformance-receipt.json",
+      "sha256": "36d0bc0adf306b884aeca9b3562bf348b981a954e816393604648c4555eda232"
+    },
+    {
+      "bytes": 1277,
+      "path": "docs/AGENT_RECEIPTS_ADAPTER.md",
+      "sha256": "8dd0b4557aad16d77ecd875eee034e4309d3e62990caaa74632d55c6e064e690"
+    },
+    {
+      "bytes": 4191,
+      "path": "docs/EVIDENCE_GATEWAY.md",
+      "sha256": "f3dcbecf88e1728ab6695dba0a1a1787cbb8373c702bb476b9b9a164b95fdbd5"
+    },
+    {
+      "bytes": 1460,
+      "path": "docs/EVIDENCE_GATEWAY_BENCHMARK.md",
+      "sha256": "eea7a381530d0c80f064aba280fc38d6daa15d9dd63f4fd0778b96a35e6ff962"
+    },
+    {
+      "bytes": 1240,
+      "path": "docs/EVIDENCE_GATEWAY_CLAIMS.md",
+      "sha256": "40e1d8aeecdd84d2017bad48dcb001b4c4593ffb6f867642c2bd8ddb73c6413e"
+    },
+    {
+      "bytes": 2298,
+      "path": "docs/EVIDENCE_GATEWAY_THREAT_MODEL.md",
+      "sha256": "84e885142f539b39df5db48f761b3732a5353c1d031807d2ba4b92693c9fdfee"
+    },
+    {
+      "bytes": 541,
+      "path": "pyproject.toml",
+      "sha256": "436154a742898009cd625f7a62b0ccd27093ae48f10208aaf1dfeec025e9ab4f"
+    },
+    {
+      "bytes": 5916,
+      "path": "results/evidence_gateway_benchmark.csv",
+      "sha256": "f502d92b6b1421868ccfe91eb0a3b98d9d2c839c517afefe3818163e9c018f8d"
+    },
+    {
+      "bytes": 35632,
+      "path": "results/evidence_gateway_benchmark.json",
+      "sha256": "438e7ca427a84d122cdec5ca3fa1fab582b4871a238cc77120ce199853e7e375"
+    },
+    {
+      "bytes": 29,
+      "path": "scripts/.gitkeep",
+      "sha256": "b36dc9a6f54eb6c80c2bf9704f4d4dba4822f3b8ab707885a3330cbae935ff9f"
+    },
+    {
+      "bytes": 2710,
+      "path": "scripts/generate_conformance.py",
+      "sha256": "9d26510862b27f1513095a3a47b251503cdc42eeabc84f798dc9e0f91ee35d51"
+    },
+    {
+      "bytes": 6370,
+      "path": "scripts/release_check.py",
+      "sha256": "41e75ae45049f18933b7bbccfbffb393652ee9b7e4253a6be9228e2c87461455"
+    },
+    {
+      "bytes": 58,
+      "path": "scripts/release_check.sh",
+      "sha256": "9705a6fd56a3e80196e92415de6ef3aa2a4912336c5b67ec8b16c823832ece90"
+    },
+    {
+      "bytes": 575,
+      "path": "src/openline_otel/__init__.py",
+      "sha256": "200c968d06e83dd1848cb9704fe29d3d02d75ae0be9cecd53ef750c733e77859"
+    },
+    {
+      "bytes": 48,
+      "path": "src/openline_otel/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
+    },
+    {
+      "bytes": 15910,
+      "path": "src/openline_otel/benchmark.py",
+      "sha256": "f616a5660ac3abb386c0a21135973f5bfddd33a851e7520af56b457f450f1a21"
+    },
+    {
+      "bytes": 8224,
+      "path": "src/openline_otel/cli.py",
+      "sha256": "c3468632db87a6b84eb85fbec87fba0bc6e8977924ef7b4703aa5b8cf1af5b89"
+    },
+    {
+      "bytes": 8386,
+      "path": "src/openline_otel/dashboard.py",
+      "sha256": "67a88fbf69e6173e4e8dcbe9a121ec02fb7b446ad32761655083c88965d8f4f6"
+    },
+    {
+      "bytes": 38458,
+      "path": "src/openline_otel/gateway.py",
+      "sha256": "b3883d349f044877acc4902fadbc8e5232ad72170510c559fb1f5d719cf2d95a"
+    },
+    {
+      "bytes": 295,
+      "path": "src/openline_otel/jcs.py",
+      "sha256": "22e981ed357476af6402d1515e6f6fb82ff3800bff8343a496313311f426d292"
+    },
+    {
+      "bytes": 12970,
+      "path": "src/openline_otel/mcp_proxy.py",
+      "sha256": "6f1265637f11b7d08c9cd4f14295c8e6c47c4b48566becfc5713e4248ebc257f"
+    },
+    {
+      "bytes": 24613,
+      "path": "src/openline_otel/processor.py",
+      "sha256": "4ec4014fa4d0223113f592b8daad6be6986ad02c57f7a1b23e17da0cd45544ef"
+    },
+    {
+      "bytes": 5223,
+      "path": "src/openline_otel/wallet.py",
+      "sha256": "74900c9ced6df12d46bc51ad8f773212751aa5ed9838c326857cdf2c1cecdbd9"
+    },
+    {
+      "bytes": 16,
+      "path": "tests/__init__.py",
+      "sha256": "4bba7b1116e961486fd55224f5a90f02efac40895d748df1d2cc4fd9d9e9bf20"
+    },
+    {
+      "bytes": 1063,
+      "path": "tests/test_benchmark.py",
+      "sha256": "38394f44414458f2e9fb240449f99c98b3b12133ef9c977699166374b3012f05"
+    },
+    {
+      "bytes": 11180,
+      "path": "tests/test_gateway.py",
+      "sha256": "102f08ec0d704b9c079e7ec1d65859228d89697eced3e7e4f03e863bc571941c"
+    },
+    {
+      "bytes": 9332,
+      "path": "tests/test_processor.py",
+      "sha256": "42617118f7525d1dc85f259ff2221ce221f474f1ed52e46d88bf461719134a05"
+    },
+    {
+      "bytes": 7675,
+      "path": "tests/test_real_sdk_integration.py",
+      "sha256": "4a835f5304afddbecef1c48e135ac869e486dbfbc00fe7ebe2b6333d9999ee39"
+    },
+    {
+      "bytes": 4265,
+      "path": "tests/test_surfaces.py",
+      "sha256": "d32a4c90cccc10cd3f852fd931b316c81824d5cf69d80624ea14b77a4e65cb24"
+    },
+    {
+      "bytes": 1918,
+      "path": "verify-node.mjs",
+      "sha256": "82e662880607e2762189526cd1e4c0939d92e4a980115c280b7dbb2bbf5bc9ec"
+    }
+  ],
+  "hash_algorithm": "sha256",
+  "release": "0.2.0",
+  "schema": "openline.evidence-gateway.manifest.v1"
+}
