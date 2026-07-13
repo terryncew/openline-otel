@@ -1,7 +1,7 @@
 {
   "benchmark_passed": true,
   "benchmark_rows": 40,
-  "generated_at": "2026-07-13T00:09:08Z",
+  "generated_at": "2026-07-13T01:53:40Z",
   "node_verifier": "verified coherence_input_receipt c16cfd4f450418aaf2ea22ce59fd03792ae72d53fee50a034c00e41ee5fe2f90",
   "python": "3.12.13",
   "release": "0.2.0",

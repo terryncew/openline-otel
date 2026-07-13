@@ -26,7 +26,7 @@
     }
   },
   "claim_boundary": "A valid receipt can be an input to a stricter evidence decision. This benchmark tests the declared synthetic attacks and does not establish production compromise resistance or legal compliance.",
-  "generated_at": "2026-07-13T00:09:08Z",
+  "generated_at": "2026-07-13T01:53:40Z",
   "passed": true,
   "release": "0.2.0",
   "schema": "openline.evidence-gateway.release-gate.v1"

@@ -80,7 +80,7 @@
       "abstained": true,
       "bytes_inspected": 1034,
       "case": "clean_control",
-      "cpu_ns": 490927,
+      "cpu_ns": 940041,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -99,13 +99,13 @@
       "native_integrity_accepts": true,
       "profile": "agent_receipts_daemon",
       "source_format": "agent_receipts_v0.5",
-      "wall_ns": 492590
+      "wall_ns": 939829
     },
     {
       "abstained": true,
       "bytes_inspected": 1048,
       "case": "agent_compromised",
-      "cpu_ns": 364330,
+      "cpu_ns": 694698,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -124,13 +124,13 @@
       "native_integrity_accepts": true,
       "profile": "agent_receipts_daemon",
       "source_format": "agent_receipts_v0.5",
-      "wall_ns": 363369
+      "wall_ns": 693533
     },
     {
       "abstained": true,
       "bytes_inspected": 1048,
       "case": "operator_compromised",
-      "cpu_ns": 350619,
+      "cpu_ns": 604784,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -149,13 +149,13 @@
       "native_integrity_accepts": true,
       "profile": "agent_receipts_daemon",
       "source_format": "agent_receipts_v0.5",
-      "wall_ns": 350109
+      "wall_ns": 603496
     },
     {
       "abstained": true,
       "bytes_inspected": 1034,
       "case": "event_omitted",
-      "cpu_ns": 386403,
+      "cpu_ns": 606235,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -174,13 +174,13 @@
       "native_integrity_accepts": true,
       "profile": "agent_receipts_daemon",
       "source_format": "agent_receipts_v0.5",
-      "wall_ns": 385482
+      "wall_ns": 605998
     },
     {
       "abstained": true,
       "bytes_inspected": 1034,
       "case": "tail_truncated",
-      "cpu_ns": 332172,
+      "cpu_ns": 585453,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -199,13 +199,13 @@
       "native_integrity_accepts": true,
       "profile": "agent_receipts_daemon",
       "source_format": "agent_receipts_v0.5",
-      "wall_ns": 332303
+      "wall_ns": 583977
     },
     {
       "abstained": true,
       "bytes_inspected": 1034,
       "case": "receipt_replayed",
-      "cpu_ns": 347084,
+      "cpu_ns": 758347,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -224,13 +224,13 @@
       "native_integrity_accepts": true,
       "profile": "agent_receipts_daemon",
       "source_format": "agent_receipts_v0.5",
-      "wall_ns": 346414
+      "wall_ns": 757933
     },
     {
       "abstained": true,
       "bytes_inspected": 1034,
       "case": "cross_run_receipt_spliced",
-      "cpu_ns": 343589,
+      "cpu_ns": 599568,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -249,13 +249,13 @@
       "native_integrity_accepts": true,
       "profile": "agent_receipts_daemon",
       "source_format": "agent_receipts_v0.5",
-      "wall_ns": 342658
+      "wall_ns": 598972
     },
     {
       "abstained": true,
       "bytes_inspected": 1048,
       "case": "validly_signed_fabricated_outcome",
-      "cpu_ns": 343399,
+      "cpu_ns": 556645,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -274,13 +274,13 @@
       "native_integrity_accepts": true,
       "profile": "agent_receipts_daemon",
       "source_format": "agent_receipts_v0.5",
-      "wall_ns": 342648
+      "wall_ns": 556783
     },
     {
       "abstained": true,
       "bytes_inspected": 995,
       "case": "valid_signature_insufficient_evidence",
-      "cpu_ns": 314266,
+      "cpu_ns": 553334,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -299,13 +299,13 @@
       "native_integrity_accepts": true,
       "profile": "agent_receipts_daemon",
       "source_format": "agent_receipts_v0.5",
-      "wall_ns": 313856
+      "wall_ns": 553057
     },
     {
       "abstained": true,
       "bytes_inspected": 1033,
       "case": "evidence_artifact_altered_and_chain_resealed",
-      "cpu_ns": 380083,
+      "cpu_ns": 613884,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -324,13 +324,13 @@
       "native_integrity_accepts": true,
       "profile": "agent_receipts_daemon",
       "source_format": "agent_receipts_v0.5",
-      "wall_ns": 379282
+      "wall_ns": 613046
     },
     {
       "abstained": true,
       "bytes_inspected": 1189,
       "case": "clean_control",
-      "cpu_ns": 339934,
+      "cpu_ns": 540886,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -349,13 +349,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_self_attested_capture",
       "source_format": "olp_canon",
-      "wall_ns": 339433
+      "wall_ns": 540954
     },
     {
       "abstained": true,
       "bytes_inspected": 1203,
       "case": "agent_compromised",
-      "cpu_ns": 354775,
+      "cpu_ns": 781414,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -374,13 +374,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_self_attested_capture",
       "source_format": "olp_canon",
-      "wall_ns": 354265
+      "wall_ns": 778862
     },
     {
       "abstained": true,
       "bytes_inspected": 1203,
       "case": "operator_compromised",
-      "cpu_ns": 289159,
+      "cpu_ns": 568920,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -399,13 +399,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_self_attested_capture",
       "source_format": "olp_canon",
-      "wall_ns": 288898
+      "wall_ns": 567513
     },
     {
       "abstained": true,
       "bytes_inspected": 1177,
       "case": "event_omitted",
-      "cpu_ns": 290220,
+      "cpu_ns": 532734,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -424,13 +424,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_self_attested_capture",
       "source_format": "olp_canon",
-      "wall_ns": 290461
+      "wall_ns": 532606
     },
     {
       "abstained": true,
       "bytes_inspected": 1190,
       "case": "tail_truncated",
-      "cpu_ns": 301567,
+      "cpu_ns": 554584,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -449,13 +449,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_self_attested_capture",
       "source_format": "olp_canon",
-      "wall_ns": 300876
+      "wall_ns": 556110
     },
     {
       "abstained": false,
       "bytes_inspected": 1189,
       "case": "receipt_replayed",
-      "cpu_ns": 329969,
+      "cpu_ns": 488702,
       "detected": true,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -474,13 +474,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_self_attested_capture",
       "source_format": "olp_canon",
-      "wall_ns": 329589
+      "wall_ns": 488491
     },
     {
       "abstained": false,
       "bytes_inspected": 1189,
       "case": "cross_run_receipt_spliced",
-      "cpu_ns": 341736,
+      "cpu_ns": 496260,
       "detected": true,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -499,13 +499,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_self_attested_capture",
       "source_format": "olp_canon",
-      "wall_ns": 341546
+      "wall_ns": 496083
     },
     {
       "abstained": true,
       "bytes_inspected": 1203,
       "case": "validly_signed_fabricated_outcome",
-      "cpu_ns": 310500,
+      "cpu_ns": 549097,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -524,13 +524,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_self_attested_capture",
       "source_format": "olp_canon",
-      "wall_ns": 310010
+      "wall_ns": 548085
     },
     {
       "abstained": true,
       "bytes_inspected": 1150,
       "case": "valid_signature_insufficient_evidence",
-      "cpu_ns": 293144,
+      "cpu_ns": 532702,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -549,13 +549,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_self_attested_capture",
       "source_format": "olp_canon",
-      "wall_ns": 293264
+      "wall_ns": 532323
     },
     {
       "abstained": true,
       "bytes_inspected": 1188,
       "case": "evidence_artifact_altered_and_chain_resealed",
-      "cpu_ns": 339313,
+      "cpu_ns": 501505,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -574,13 +574,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_self_attested_capture",
       "source_format": "olp_canon",
-      "wall_ns": 338632
+      "wall_ns": 501047
     },
     {
       "abstained": true,
       "bytes_inspected": 1185,
       "case": "clean_control",
-      "cpu_ns": 293685,
+      "cpu_ns": 542291,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -599,13 +599,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_daemon_capture",
       "source_format": "olp_canon",
-      "wall_ns": 293235
+      "wall_ns": 541982
     },
     {
       "abstained": true,
       "bytes_inspected": 1199,
       "case": "agent_compromised",
-      "cpu_ns": 368706,
+      "cpu_ns": 527555,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -624,13 +624,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_daemon_capture",
       "source_format": "olp_canon",
-      "wall_ns": 367775
+      "wall_ns": 527033
     },
     {
       "abstained": true,
       "bytes_inspected": 1199,
       "case": "operator_compromised",
-      "cpu_ns": 291211,
+      "cpu_ns": 493141,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -649,13 +649,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_daemon_capture",
       "source_format": "olp_canon",
-      "wall_ns": 291232
+      "wall_ns": 492851
     },
     {
       "abstained": true,
       "bytes_inspected": 1173,
       "case": "event_omitted",
-      "cpu_ns": 306063,
+      "cpu_ns": 487562,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -674,13 +674,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_daemon_capture",
       "source_format": "olp_canon",
-      "wall_ns": 306144
+      "wall_ns": 487330
     },
     {
       "abstained": true,
       "bytes_inspected": 1186,
       "case": "tail_truncated",
-      "cpu_ns": 291311,
+      "cpu_ns": 742564,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -699,13 +699,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_daemon_capture",
       "source_format": "olp_canon",
-      "wall_ns": 291102
+      "wall_ns": 740118
     },
     {
       "abstained": false,
       "bytes_inspected": 1185,
       "case": "receipt_replayed",
-      "cpu_ns": 281637,
+      "cpu_ns": 499458,
       "detected": true,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -724,13 +724,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_daemon_capture",
       "source_format": "olp_canon",
-      "wall_ns": 281718
+      "wall_ns": 499559
     },
     {
       "abstained": false,
       "bytes_inspected": 1185,
       "case": "cross_run_receipt_spliced",
-      "cpu_ns": 302368,
+      "cpu_ns": 486279,
       "detected": true,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -749,13 +749,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_daemon_capture",
       "source_format": "olp_canon",
-      "wall_ns": 301578
+      "wall_ns": 486001
     },
     {
       "abstained": true,
       "bytes_inspected": 1199,
       "case": "validly_signed_fabricated_outcome",
-      "cpu_ns": 286004,
+      "cpu_ns": 578329,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -774,13 +774,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_daemon_capture",
       "source_format": "olp_canon",
-      "wall_ns": 285613
+      "wall_ns": 578365
     },
     {
       "abstained": true,
       "bytes_inspected": 1146,
       "case": "valid_signature_insufficient_evidence",
-      "cpu_ns": 319463,
+      "cpu_ns": 544182,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -799,13 +799,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_daemon_capture",
       "source_format": "olp_canon",
-      "wall_ns": 318713
+      "wall_ns": 544232
     },
     {
       "abstained": true,
       "bytes_inspected": 1184,
       "case": "evidence_artifact_altered_and_chain_resealed",
-      "cpu_ns": 280495,
+      "cpu_ns": 506235,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -824,13 +824,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_daemon_capture",
       "source_format": "olp_canon",
-      "wall_ns": 280396
+      "wall_ns": 506532
     },
     {
       "abstained": false,
       "bytes_inspected": 1187,
       "case": "clean_control",
-      "cpu_ns": 428034,
+      "cpu_ns": 699439,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -849,13 +849,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_receiver_tool_witness_capture",
       "source_format": "olp_canon",
-      "wall_ns": 428195
+      "wall_ns": 699463
     },
     {
       "abstained": false,
       "bytes_inspected": 1201,
       "case": "agent_compromised",
-      "cpu_ns": 586298,
+      "cpu_ns": 933162,
       "detected": true,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -874,13 +874,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_receiver_tool_witness_capture",
       "source_format": "olp_canon",
-      "wall_ns": 585138
+      "wall_ns": 932450
     },
     {
       "abstained": false,
       "bytes_inspected": 1201,
       "case": "operator_compromised",
-      "cpu_ns": 552598,
+      "cpu_ns": 694215,
       "detected": true,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -899,13 +899,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_receiver_tool_witness_capture",
       "source_format": "olp_canon",
-      "wall_ns": 552539
+      "wall_ns": 694200
     },
     {
       "abstained": true,
       "bytes_inspected": 1175,
       "case": "event_omitted",
-      "cpu_ns": 473472,
+      "cpu_ns": 793208,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -924,13 +924,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_receiver_tool_witness_capture",
       "source_format": "olp_canon",
-      "wall_ns": 474123
+      "wall_ns": 791430
     },
     {
       "abstained": true,
       "bytes_inspected": 1188,
       "case": "tail_truncated",
-      "cpu_ns": 496055,
+      "cpu_ns": 731144,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -949,13 +949,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_receiver_tool_witness_capture",
       "source_format": "olp_canon",
-      "wall_ns": 494924
+      "wall_ns": 730653
     },
     {
       "abstained": false,
       "bytes_inspected": 1187,
       "case": "receipt_replayed",
-      "cpu_ns": 411710,
+      "cpu_ns": 674981,
       "detected": true,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -974,13 +974,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_receiver_tool_witness_capture",
       "source_format": "olp_canon",
-      "wall_ns": 410899
+      "wall_ns": 674958
     },
     {
       "abstained": false,
       "bytes_inspected": 1187,
       "case": "cross_run_receipt_spliced",
-      "cpu_ns": 462144,
+      "cpu_ns": 735342,
       "detected": true,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -999,13 +999,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_receiver_tool_witness_capture",
       "source_format": "olp_canon",
-      "wall_ns": 461274
+      "wall_ns": 735031
     },
     {
       "abstained": false,
       "bytes_inspected": 1201,
       "case": "validly_signed_fabricated_outcome",
-      "cpu_ns": 478628,
+      "cpu_ns": 700403,
       "detected": true,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -1024,13 +1024,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_receiver_tool_witness_capture",
       "source_format": "olp_canon",
-      "wall_ns": 478590
+      "wall_ns": 701090
     },
     {
       "abstained": true,
       "bytes_inspected": 1148,
       "case": "valid_signature_insufficient_evidence",
-      "cpu_ns": 435235,
+      "cpu_ns": 682877,
       "detected": false,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -1049,13 +1049,13 @@
       "native_integrity_accepts": true,
       "profile": "olp_receiver_tool_witness_capture",
       "source_format": "olp_canon",
-      "wall_ns": 434895
+      "wall_ns": 683068
     },
     {
       "abstained": false,
       "bytes_inspected": 1186,
       "case": "evidence_artifact_altered_and_chain_resealed",
-      "cpu_ns": 429096,
+      "cpu_ns": 772635,
       "detected": true,
       "dimension_statuses": {
         "causal_uptake": "undecidable",
@@ -1074,7 +1074,7 @@
       "native_integrity_accepts": true,
       "profile": "olp_receiver_tool_witness_capture",
       "source_format": "olp_canon",
-      "wall_ns": 428305
+      "wall_ns": 771390
     }
   ],
   "schema": "openline.evidence-gateway.benchmark.v1",

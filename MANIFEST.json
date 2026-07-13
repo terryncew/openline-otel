@@ -1,13 +1,15 @@
 {
   "excluded": [
+    "*.egg-info",
     "*.pyc",
     "*.zip",
     ".git",
     ".pytest_cache",
+    ".venv",
     "MANIFEST.json",
     "__pycache__",
     "build",
-    "openline_otel.egg-info"
+    "dist"
   ],
   "file_count": 42,
   "files": [
@@ -19,22 +21,22 @@
     {
       "bytes": 1836,
       "path": ".github/workflows/real-sdk-release-gate.yml",
-      "sha256": "f962dca28d707c29dd673b865750a4559be7889ca7d37c508216adb9a5b1ec6e"
+      "sha256": "b77d39c036d9928e6cc8ec294c589f916f3d9c164976853ddcec10074bb24c58"
     },
     {
-      "bytes": 107,
+      "bytes": 114,
       "path": ".gitignore",
-      "sha256": "2062d31bd74ba969eb401365de32bd207517d395218029374c2daafae142720d"
+      "sha256": "7db0359acb425415408a9bdecf25986bdb041e3e634ca37ff9706c5d7994be20"
     },
     {
-      "bytes": 842,
+      "bytes": 991,
       "path": "CHANGELOG.md",
-      "sha256": "8d48ef2cc062284b72e08aef7029f0b342b1f3593285c874724c9a1f2c14bd26"
+      "sha256": "df9a6dfb6c22a6d40418e74b9605fd72122e8acd4dfb049eaff65c5059a1bd33"
     },
     {
       "bytes": 907,
       "path": "EVIDENCE_GATEWAY_RELEASE_GATE.json",
-      "sha256": "2bcf4c301931900cecb24fb70c7cf070a27f1a15658f52f41d046f6d5deb21b1"
+      "sha256": "96a8266a2371f0bd2996ff51e5a06ba46713f1c19aa62d9cd60e8bcdcfbf06af"
     },
     {
       "bytes": 1071,
@@ -54,7 +56,7 @@
     {
       "bytes": 456,
       "path": "RUN_REPORT.json",
-      "sha256": "9c42472002a0fe6c12746ad117120a56557b29b566557c47559f984c5dcad78f"
+      "sha256": "b4f72014c51aeded3fc06dc27a8aa2d24c1eb6b06fcac0f06e3a9faf678b671f"
     },
     {
       "bytes": 568,
@@ -107,14 +109,14 @@
       "sha256": "436154a742898009cd625f7a62b0ccd27093ae48f10208aaf1dfeec025e9ab4f"
     },
     {
-      "bytes": 5916,
+      "bytes": 5875,
       "path": "results/evidence_gateway_benchmark.csv",
-      "sha256": "f502d92b6b1421868ccfe91eb0a3b98d9d2c839c517afefe3818163e9c018f8d"
+      "sha256": "1c03d3c3b2e5267fb450413c1a439e04b4a917657bde646deca2269d17154886"
     },
     {
       "bytes": 35632,
       "path": "results/evidence_gateway_benchmark.json",
-      "sha256": "438e7ca427a84d122cdec5ca3fa1fab582b4871a238cc77120ce199853e7e375"
+      "sha256": "295f9699f2c78da209cdb876c9497b29faa484219fe95adc7ce19d27f6caabfa"
     },
     {
       "bytes": 29,
@@ -127,9 +129,9 @@
       "sha256": "9d26510862b27f1513095a3a47b251503cdc42eeabc84f798dc9e0f91ee35d51"
     },
     {
-      "bytes": 6370,
+      "bytes": 6493,
       "path": "scripts/release_check.py",
-      "sha256": "41e75ae45049f18933b7bbccfbffb393652ee9b7e4253a6be9228e2c87461455"
+      "sha256": "fbe27bc68c8947b94110921b1a1f9175a0a10d1966f8201b9665eaaf988f42cc"
     },
     {
       "bytes": 58,
@@ -147,9 +149,9 @@
       "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d"
     },
     {
-      "bytes": 15910,
+      "bytes": 15970,
       "path": "src/openline_otel/benchmark.py",
-      "sha256": "f616a5660ac3abb386c0a21135973f5bfddd33a851e7520af56b457f450f1a21"
+      "sha256": "71af39ee470ab6cb022bc4e428d0982c6d3a5d9638276d4fc6a80e1b5ceefd74"
     },
     {
       "bytes": 8224,

@@ -17,6 +17,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "src"
+EXCLUDED_PARTS = {".git", ".pytest_cache", ".venv", "__pycache__", "build", "dist"}
 sys.path.insert(0, str(SRC))
 
 from openline_otel.benchmark import write_benchmark  # noqa: E402
@@ -40,13 +41,20 @@ def environment() -> dict[str, str]:
     return env
 
 
+def excluded(path: Path) -> bool:
+    relative = path.relative_to(ROOT)
+    return any(
+        part in EXCLUDED_PARTS or part.endswith(".egg-info")
+        for part in relative.parts
+    )
+
+
 def manifest() -> dict[str, object]:
-    excluded_parts = {".git", ".pytest_cache", "__pycache__", "build", "openline_otel.egg-info"}
     excluded_names = {"MANIFEST.json"}
     files: list[dict[str, object]] = []
     for path in sorted(ROOT.rglob("*")):
         relative = path.relative_to(ROOT)
-        if not path.is_file() or any(part in excluded_parts for part in relative.parts):
+        if not path.is_file() or excluded(path):
             continue
         if path.name in excluded_names or path.suffix in {".pyc", ".zip"}:
             continue
@@ -60,7 +68,7 @@ def manifest() -> dict[str, object]:
         "schema": "openline.evidence-gateway.manifest.v1",
         "release": "0.2.0",
         "hash_algorithm": "sha256",
-        "excluded": sorted(excluded_names | excluded_parts | {"*.pyc", "*.zip"}),
+        "excluded": sorted(excluded_names | EXCLUDED_PARTS | {"*.egg-info", "*.pyc", "*.zip"}),
         "file_count": len(files),
         "files": files,
     }
@@ -73,7 +81,7 @@ def main() -> int:
         path.relative_to(ROOT).as_posix()
         for path in ROOT.rglob("*")
         if path.is_file()
-        and ".git" not in path.parts
+        and not excluded(path)
         and private_key_marker in path.read_bytes()
     ]
     if leaked:
@@ -97,7 +105,7 @@ def main() -> int:
         target = Path(temporary) / "site"
         run([
             sys.executable, "-m", "pip", "install", "--quiet", "--no-deps",
-            "--no-cache-dir", "--no-build-isolation", "--target", str(target), str(ROOT),
+            "--no-cache-dir", "--target", str(target), str(ROOT),
         ], env=env)
         inherited = [
             item for item in os.environ.get("PYTHONPATH", "").split(os.pathsep)

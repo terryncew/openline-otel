@@ -15,3 +15,5 @@
   and no combined score.
 - Preserved the original self/provisional OTel capture boundary and Node
   conformance verifier.
+- Fixed the isolated package check on clean Python 3.12 runners by letting the
+  declared PEP 517 build environment install `setuptools.build_meta`.

@@ -378,7 +378,12 @@ def write_benchmark(root: Path) -> dict[str, Any]:
         "gateway_status", "false_acceptance_native", "false_acceptance_gateway", "detected",
         "abstained", "bytes_inspected", "evidence_reads", "wall_ns", "cpu_ns",
     ]
-    writer = csv.DictWriter(buffer, fieldnames=fields, extrasaction="ignore")
+    writer = csv.DictWriter(
+        buffer,
+        fieldnames=fields,
+        extrasaction="ignore",
+        lineterminator="\n",
+    )
     writer.writeheader()
     writer.writerows(result["rows"])
     (output / "evidence_gateway_benchmark.csv").write_text(buffer.getvalue(), encoding="utf-8")
